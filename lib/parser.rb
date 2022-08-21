@@ -22,4 +22,11 @@ class Parser
       [target.join, other.join]
     end
   end
+
+  # 特定の１文字をパースするパーサー
+  # @param [String]
+  # @return [Proc]
+  def character(c)
+    # lambda?
+  end
 end
